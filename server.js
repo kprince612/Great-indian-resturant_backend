@@ -183,7 +183,7 @@ app.post ('/send-info', async (req, res) => {
     service: 'gmail',
     auth: {
       user: 'princekhandelwal412@gmail.com',
-      pass: 'fwpz chtd rqax ctct',
+      pass: 'eabz jnzt cjpz fdtw',
     },
   });
 
@@ -220,7 +220,7 @@ app.post ('/send-order', async (req, res) => {
     service: 'gmail',
     auth: {
       user: 'princekhandelwal412@gmail.com',
-      pass: 'fwpz chtd rqax ctct',
+      pass: 'eabz jnzt cjpz fdtw',
     },
   });
 
@@ -278,7 +278,7 @@ app.post ("/send-order-otp", async (req, res) => {
     service: 'gmail',
     auth: {
       user: 'princekhandelwal412@gmail.com',
-      pass: 'fwpz chtd rqax ctct',
+      pass: 'eabz jnzt cjpz fdtw',
     },
   })
 
