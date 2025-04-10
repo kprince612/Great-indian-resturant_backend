@@ -9,12 +9,7 @@ const PORT = 5000;
 
 // Middleware
 app.use(cors({
-<<<<<<< HEAD
   origin: "*",
-=======
-  origin: ['https://the-great-indian-restrauant.vercel.app',
-  'https://great-indian-restrauant-qt12.vercel.app']
->>>>>>> 25332f0b2398fe6483d1db713dad963b8b36e814
 }));
 app.use(express.json()); // To handle JSON data from React frontend
 app.use(bodyParser.json());
@@ -144,11 +139,7 @@ app.post('/send-otp', async (req, res) => {
       service: 'gmail',
       auth: {
           user: 'princekhandelwal412@gmail.com', // Replace with your email
-<<<<<<< HEAD
           pass: 'eabz jnzt cjpz fdtw', // Replace with your email's app-specific password
-=======
-          pass: 'fwpz chtd rqax ctct', // Replace with your email's app-specific password
->>>>>>> 25332f0b2398fe6483d1db713dad963b8b36e814
       },
   });
 
